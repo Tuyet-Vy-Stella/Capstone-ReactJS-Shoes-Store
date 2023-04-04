@@ -1,0 +1,38 @@
+.navbar {
+    padding:70px 0 20px 0;
+    
+    .wrapper {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      a {
+        text-decoration: none;
+        padding: 0;
+        margin-right: 20px;
+        color: inherit;
+        position: relative;
+        &.active{
+          &::after{
+            width: 100%;
+          }
+        }
+        &::after {
+          content: "";
+          width: 0px;
+          height: 2px;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          background-color: #000;
+          border-radius: 1px;
+          transition: all 0.3s;
+        }
+        &:hover {
+          &::after {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  

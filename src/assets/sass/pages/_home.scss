@@ -1,0 +1,73 @@
+.slider {
+  position: relative;
+  padding: 100px 0;
+  .container {
+    #carouselExampleIndicators {
+      .carousel-inner {
+        .carousel-item {
+          &-content {
+            display: flex;
+            align-items: center;
+            padding: 0 100px;
+            .carousel-right {
+              padding: 0 80px;
+              h2 {
+                font-size: 40px;
+              }
+              p {
+                font-size: 20px;
+              }
+              .btn {
+                background-color: #f8b653;
+                border-radius: 0;
+                color: #fff;
+                padding: 13px 35px;
+                font-size: 20px;
+                letter-spacing: 1px;
+                font-weight: 200;
+              }
+            }
+          }
+        }
+      }
+      .carousel-control-next {
+        &-icon {
+          background-image: url(../../img/Polygon2.png) !important;
+          transform: rotate(180deg);
+          height: 68px;
+          width: 53px;
+          margin-left: 150px;
+        }
+      }
+      .carousel-control-prev {
+        &-icon {
+          background-image: url(../../img/Polygon2.png) !important;
+          height: 68px;
+          width: 53px;
+          margin-right: 150px;
+        }
+      }
+    }
+  }
+}
+.product-feature {
+  padding-bottom: 100px;
+  h1 {
+    font-weight: 400;
+    font-size: 40px;
+    margin: 0;
+    width: 50%;
+    padding: 10px 0;
+    background: linear-gradient(180deg, #f21299 0%, #1b02b5 100%);
+    text-align: left !important;
+    padding-left: 30px;
+    color: #fff;
+  }
+  .container {
+    .row {
+      .col-4 {
+        margin-top: 30px;
+      }
+    }
+  }
+}

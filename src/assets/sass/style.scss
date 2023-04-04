@@ -1,0 +1,20 @@
+@import "./base/base";
+@import "./variables/variables";
+
+@import "./components/Header/header";
+@import "./components/Footer/footer";
+@import "./components/Navbar/navbar";
+@import "./components/ProductCard/productCard";
+@import "./components/TableCart/tableCart";
+@import "./components/RegisterForm/registerForm";
+@import "./components/LoginForm/loginForm";
+@import "./components/UpdateForm/updateForm";
+
+
+@import "./pages/home";
+@import "./pages/cart";
+@import "./pages/detail";
+@import "./pages/search";
+@import "./pages/register";
+@import "./pages/login";
+@import "./pages/profile";

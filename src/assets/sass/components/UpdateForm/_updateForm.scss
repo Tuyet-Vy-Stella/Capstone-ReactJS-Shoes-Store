@@ -1,0 +1,34 @@
+.form_container{
+    .updateForm{
+        .row{
+            justify-content: center;
+            .form-group{
+                .item{
+                    label{
+                        font-size: $fz-18;
+                    }
+                    input{
+                        margin-bottom: 20px;
+                        background-color: $bg-grey-2;
+                        &-input.placeholder{
+                            font-size: $fz-16;
+                        }
+                    }
+                    p{
+                        font-size: $fz-14;
+                    }
+                }
+            }
+        }
+        button{
+            background-color: $bg-purple;
+            width: 121px;
+            height: 48px;
+            border: none;
+            color: $cl-text-white;
+            font-size: $fz-16;
+            transform: translateX(690%);
+            border-radius: 50px;
+        }
+    }
+}

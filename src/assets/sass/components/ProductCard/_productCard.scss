@@ -1,0 +1,55 @@
+.card {
+  background: #f8f8f8;
+  border: none;
+  border-radius: 0;
+  position: relative;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 30px;
+  .favorite-item {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    cursor: pointer;
+    i {
+      font-size: 30px;
+      color: #cbc9c9;
+      &.active {
+        color: red;
+      }
+    }
+  }
+  .card-body {
+    h2 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 20px;
+      color: #cbc9c9;
+      margin: 0;
+      height: 85px;
+    }
+  }
+  .card-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    border: none;
+    .btn {
+      width: 100%;
+      background: #e1b067;
+      border-radius: 0;
+      padding: 18px 40px;
+      font-size: 24px;
+      font-weight: 300;
+    }
+    span {
+      width: 100%;
+      text-align: center;
+      background-color: #dedddc;
+      padding: 18px 40px;
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }
+}

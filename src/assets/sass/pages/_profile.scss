@@ -1,0 +1,91 @@
+.profile {
+  padding-bottom: 100px;
+  padding-top: 47px;
+  h1 {
+    font-weight: 400;
+    font-size: 40px;
+    margin: 0;
+    width: 50%;
+    padding: 10px 0;
+    background: linear-gradient(180deg, #f21299 0%, #1b02b5 100%);
+    text-align: left !important;
+    padding-left: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .container {
+    .row {
+      .item {
+        align-items: center;
+        .col-left {
+          width: 20%;
+          img {
+            width: 225px;
+            height: 225px;
+            border-radius: 50%;
+          }
+          p {
+            margin-top: 30px;
+            text-align: center;
+            a {
+              font-size: $fz-16;
+            }
+          }
+        }
+        .col-right {
+          width: 80%;
+        }
+      }
+      .item-2 {
+        margin-bottom: 50px;
+        .order-history {
+          font-size: $fz-32;
+          color: $cl-text-purple;
+          border: solid 1px $cl-text-grey;
+          border-top: none;
+          padding: 10px;
+        }
+        .favorite {
+          font-size: $fz-32;
+          color: $cl-text-dark;
+          border: solid 1px $cl-text-grey;
+          border-top: none;
+          padding: 10px 75px 10px 10px;
+        }
+      }
+      .item-3 {
+        margin-bottom: 30px;
+        margin-left: 50px;
+        p {
+          font-size: $fz-20;
+          color: $cl-text-purple;
+        }
+        .order-detail {
+          width: 1000px;
+          text-align: center;
+          table {
+            thead {
+              background-color: $bg-grey-C;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.table {
+  .nav {
+    .nav-link {
+      border: none;
+      color: #000;
+      font-size: 24px;
+      border: 1px solid $cl-text-grey;
+      &.active {
+        color: #f21299;
+      }
+    }
+  }
+  .order-history-table {
+    border-bottom: 2px solid $cl-text-grey;
+  }
+}

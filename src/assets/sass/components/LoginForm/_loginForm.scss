@@ -1,0 +1,48 @@
+.login-container{
+    form{
+        .row{
+            justify-content: center;
+            margin-bottom: 10px;
+            .form-group{
+                .item{
+                    label{
+                        font-size: $fz-18; 
+                    }
+                    input{
+                        margin-bottom: 20px;
+                        background-color: $bg-grey-2;
+                        &-input.placeholder{
+                            font-size: $fz-16;
+                        }
+                    }
+                }
+                .item-3{
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    span{
+                        font-size: $fz-18;
+                    }
+                    button{
+                        margin-left: 50px;
+                        width: 121px;
+                        height: 48px;
+                        border-radius: 50px;
+                        background-color: $bg-purple;
+                        border: none;
+                        color: $cl-text-white;
+                        font-size: $fz-16;
+                    }
+                }
+            }
+        }
+        button{
+            width: 100%;
+            height: 63px;
+            border-radius: 21px;
+            background-color: $bg-light-blue;
+            border: none;
+            color: $cl-text-white;
+        }
+    }
+}
